@@ -3,7 +3,12 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 import { defineConfig } from 'vite'
 
+// GitHub Pages serves this project at /Kalibre/ (guilhermealeitao05-rgb.github.io/Kalibre/).
+// Override with BASE_PATH=/ for local dev / other hosts.
+const base = process.env.BASE_PATH ?? '/Kalibre/'
+
 export default defineConfig({
+  base,
   plugins: [
     react(),
     tailwindcss(),
@@ -11,7 +16,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['favicon.svg'],
       manifest: {
-        id: '/',
+        id: base,
         name: 'Kalibre',
         short_name: 'Kalibre',
         description: 'Kalibre — calibre sua alimentação',
@@ -19,18 +24,18 @@ export default defineConfig({
         background_color: '#0B0B0C',
         display: 'standalone',
         orientation: 'portrait',
-        start_url: '/',
-        scope: '/',
+        start_url: base,
+        scope: base,
         lang: 'pt-BR',
         icons: [
-          { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png' },
-          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png' },
-          { src: '/icons/icon-512-maskable.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+          { src: `${base}icons/icon-192.png`, sizes: '192x192', type: 'image/png' },
+          { src: `${base}icons/icon-512.png`, sizes: '512x512', type: 'image/png' },
+          { src: `${base}icons/icon-512-maskable.png`, sizes: '512x512', type: 'image/png', purpose: 'maskable' },
         ],
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff,woff2}'],
-        navigateFallback: '/index.html',
+        navigateFallback: `${base}index.html`,
       },
     }),
   ],
