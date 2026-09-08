@@ -1,0 +1,226 @@
+[
+  {
+    "id": "espalhe-proteina",
+    "titulo": "Espalhe a proteína",
+    "porque": "Distribuir proteína ao longo do dia ajuda a saciedade e o estímulo muscular — em vez de concentrar tudo numa refeição só.",
+    "quandoUsar": "Quando a maior parte da sua proteína do dia cai inteira no almoço ou no jantar.",
+    "comoTestar": [
+      "Identifique sua refeição com mais proteína hoje.",
+      "Nas outras refeições principais, inclua uma fonte — ovo, iogurte, frango, feijão, tofu.",
+      "Não precisa pesar nada: uma porção do tamanho da palma da mão já conta."
+    ],
+    "sinalDeSucesso": "Menos fome entre as refeições e mais disposição no treino do fim do dia.",
+    "tags": ["nao_sei_quanto_comer"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "ancore-pos-treino",
+    "titulo": "Ancore o pós-treino",
+    "porque": "Uma refeição com proteína e carboidrato logo após o treino tira a decisão do improviso — e improviso é onde a rotina trava.",
+    "quandoUsar": "Quando você termina o treino sem plano nenhum pra próxima refeição.",
+    "comoTestar": [
+      "Escolha com antecedência o que vai comer na janela de até 2h após o treino.",
+      "Combine uma fonte de proteína com um carboidrato de sua preferência.",
+      "Deixe pronto ou fácil de montar — a fricção é a inimiga."
+    ],
+    "sinalDeSucesso": "Você para de \"esquecer\" de comer depois do treino ou de resolver com qualquer coisa.",
+    "tags": ["treino_sem_pre_pos"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "blinde-fim-de-semana",
+    "titulo": "Blinde o fim de semana",
+    "porque": "Sábado e domingo não precisam virar outra pessoa. Manter uma estrutura parecida com a da semana evita o efeito sanfona.",
+    "quandoUsar": "Quando toda segunda-feira você sente que está recomeçando do zero.",
+    "comoTestar": [
+      "Mantenha ao menos duas refeições no mesmo horário aproximado de sempre.",
+      "Decida com antecedência UM momento livre — sem culpa, com limite combinado.",
+      "O resto do fim de semana segue o padrão que já funciona pra você."
+    ],
+    "sinalDeSucesso": "A segunda-feira deixa de ser um recomeço e vira só mais um dia.",
+    "tags": ["fim_de_semana"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "precisao-do-que-come",
+    "titulo": "Precisão do que você acha que come",
+    "porque": "A maioria de nós subestima o que come nas entrelinhas — um pouco aqui, uma prova ali. Ver isso sem julgamento já muda o jogo.",
+    "quandoUsar": "Quando você sente que \"come certo\" mas o resultado não aparece.",
+    "comoTestar": [
+      "Por 3 dias, anote (papel, foto ou app) tudo que realmente entrar — sem mudar nada ainda.",
+      "No fim, compare com o que você imaginava ter comido.",
+      "Não é sobre culpa. É sobre enxergar o ponto de partida real."
+    ],
+    "sinalDeSucesso": "Você identifica pelo menos um padrão que não tinha percebido.",
+    "tags": ["nao_sei_quanto_comer", "falta_de_tempo"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "carbo-pre-treino",
+    "titulo": "Carboidrato antes de treinar",
+    "porque": "Chegar no treino com combustível muda a qualidade da sessão — e sessão melhor é resultado melhor.",
+    "quandoUsar": "Quando você treina em jejum prolongado ou \"no talo\" e sente a energia cair no meio do treino.",
+    "comoTestar": [
+      "Nos dias de treino, coma uma fonte de carboidrato de fácil digestão de 30 a 90 minutos antes.",
+      "Banana, pão, tapioca ou batata funcionam bem — teste o que cai melhor pra você.",
+      "Compare a sensação de energia com um dia sem essa refeição."
+    ],
+    "sinalDeSucesso": "Você sustenta a intensidade até o fim do treino, não só no início.",
+    "tags": ["treino_sem_pre_pos"],
+    "objetivos": ["ganho", "manutencao"]
+  },
+  {
+    "id": "cafe-com-proposito",
+    "titulo": "Café da manhã com propósito",
+    "porque": "A primeira refeição define o ritmo do resto do dia. Um café sem proteína costuma cobrar a conta lá pelas 10h.",
+    "quandoUsar": "Quando a fome ataca forte no meio da manhã e puxa escolhas de última hora.",
+    "comoTestar": [
+      "Inclua uma fonte de proteína no café da manhã — ovo, iogurte, queijo, whey.",
+      "Combine com um carboidrato de sua preferência.",
+      "Observe como chega a fome às 10h-11h nos dias em que testar."
+    ],
+    "sinalDeSucesso": "A fome do meio da manhã fica mais previsível e menos urgente.",
+    "tags": ["nao_sei_quanto_comer", "falta_de_tempo"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "agua-antes-da-fome",
+    "titulo": "Água antes de sentir sede",
+    "porque": "Sede e fome se confundem com facilidade. Beber água ao longo do dia — não só quando lembra — tira ruído da equação.",
+    "quandoUsar": "Quando você belisca fora de hora e não tem certeza se é fome de verdade.",
+    "comoTestar": [
+      "Deixe uma garrafa de água visível no seu espaço de trabalho ou casa.",
+      "Beba um copo antes de decidir se vai comer algo fora do combinado.",
+      "Espere 10 minutos e reavalie a fome."
+    ],
+    "sinalDeSucesso": "Parte das \"vontades\" fora de hora perde a força depois da água.",
+    "tags": ["ansiedade_noturna"],
+    "objetivos": ["definicao", "manutencao"]
+  },
+  {
+    "id": "prato-dividido",
+    "titulo": "O prato dividido",
+    "porque": "Sem pesar nada: metade do prato em vegetais, um quarto em proteína, um quarto em carboidrato. Um princípio visual que substitui a dúvida.",
+    "quandoUsar": "Quando montar o prato vira indecisão ou exagero num dos lados.",
+    "comoTestar": [
+      "Nas refeições principais, monte o prato seguindo essa proporção visual.",
+      "Ajuste o tamanho do prato ao seu objetivo, não a proporção.",
+      "Use por uma semana e veja se fica automático."
+    ],
+    "sinalDeSucesso": "Você para de se perguntar \"tá certo?\" toda vez que monta o prato.",
+    "tags": ["nao_sei_quanto_comer"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "fibra-em-toda-refeicao",
+    "titulo": "Fibra em toda refeição principal",
+    "porque": "Vegetais e fibras aumentam saciedade por menos espaço no prato — ótimo aliado quando o objetivo pede mais controle.",
+    "quandoUsar": "Quando a fome volta rápido demais depois de comer.",
+    "comoTestar": [
+      "Adicione uma porção de vegetais ou uma fruta em cada refeição principal.",
+      "Priorize os que você já gosta — adesão vem antes de variedade.",
+      "Observe o tempo até a próxima fome aparecer."
+    ],
+    "sinalDeSucesso": "O intervalo até a próxima fome aumenta de forma perceptível.",
+    "tags": ["nao_sei_quanto_comer"],
+    "objetivos": ["definicao", "manutencao"]
+  },
+  {
+    "id": "mapeie-a-refeicao-de-risco",
+    "titulo": "Mapeie a refeição de risco",
+    "porque": "Quase todo mundo tem UM horário do dia onde o combinado desmorona. Achar esse ponto é mais eficiente que tentar controlar tudo.",
+    "quandoUsar": "Quando você sente que \"vai bem o dia todo\" e desanda sempre na mesma hora.",
+    "comoTestar": [
+      "Nos próximos dias, note em que horário a decisão foge mais do plano.",
+      "Prepare com antecedência uma opção pronta pra esse momento específico.",
+      "Foque só nesse ponto — não tente consertar o dia inteiro de uma vez."
+    ],
+    "sinalDeSucesso": "O horário de risco deixa de ser surpresa e vira algo previsto.",
+    "tags": ["ansiedade_noturna", "fim_de_semana"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "desacelere-a-ultima-refeicao",
+    "titulo": "Desacelere a última refeição",
+    "porque": "Comer rápido demais à noite atropela o sinal de saciedade — e costuma render uma segunda porção que não fazia falta.",
+    "quandoUsar": "Quando o jantar vira compulsão por cansaço ou tela ligada.",
+    "comoTestar": [
+      "Coma a última refeição do dia sem tela por perto, ao menos nos primeiros 10 minutos.",
+      "Mastigue mais devagar do que o normal.",
+      "Espere um pouco antes de repetir o prato."
+    ],
+    "sinalDeSucesso": "Você sente a saciedade chegar antes de repetir automaticamente.",
+    "tags": ["ansiedade_noturna"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "troque-a-bebida-do-dia",
+    "titulo": "Troque a bebida do dia",
+    "porque": "Calorias líquidas passam batido e custam caro pro orçamento e pro objetivo — sem entregar saciedade nenhuma em troca.",
+    "quandoUsar": "Quando refrigerante, suco de caixinha ou bebida adoçada viram hábito diário.",
+    "comoTestar": [
+      "Escolha a bebida que mais se repete no seu dia hoje.",
+      "Troque por água, água com gás ou uma versão sem açúcar por uma semana.",
+      "Guarde a versão antiga só pra ocasiões específicas, não pro automático."
+    ],
+    "sinalDeSucesso": "A troca vira o novo padrão sem esforço consciente.",
+    "tags": ["orcamento", "nao_sei_quanto_comer"],
+    "objetivos": ["definicao"]
+  },
+  {
+    "id": "plano-b-na-bolsa",
+    "titulo": "Plano B na bolsa",
+    "porque": "Fome inesperada sem opção por perto é a receita pra qualquer coisa resolver. Ter um plano B tira a decisão de cima da fome.",
+    "quandoUsar": "Quando a correria do dia te pega sem nada preparado.",
+    "comoTestar": [
+      "Escolha uma opção prática e barata que você goste (fruta, ovo cozido, oleaginosa).",
+      "Leve sempre com você nos dias mais corridos da semana.",
+      "Use só quando a fome real aparecer fora de hora."
+    ],
+    "sinalDeSucesso": "Você deixa de recorrer ao que estiver mais perto — padaria, máquina, delivery.",
+    "tags": ["falta_de_tempo", "orcamento"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "janela-alimentar-regular",
+    "titulo": "Janela alimentar regular",
+    "porque": "Horários muito irregulares confundem fome e saciedade. Uma rotina mais previsível facilita todas as outras decisões.",
+    "quandoUsar": "Quando suas refeições mudam de horário todo dia, sem padrão nenhum.",
+    "comoTestar": [
+      "Escolha uma janela aproximada (±30 min) para cada refeição principal.",
+      "Siga por uma semana, mesmo nos dias mais corridos.",
+      "Ajuste a janela se ela não couber na sua rotina real — o objetivo é sustentar, não sofrer."
+    ],
+    "sinalDeSucesso": "Menos decisões de última hora sobre \"quando\" comer.",
+    "tags": ["falta_de_tempo", "ansiedade_noturna"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  },
+  {
+    "id": "proteina-no-lanche",
+    "titulo": "Proteína também no lanche",
+    "porque": "Lanches costumam ser só carboidrato. Incluir proteína neles ajuda a sustentar energia até a próxima refeição.",
+    "quandoUsar": "Quando seus lanches são só biscoito, pão ou fruta isolada.",
+    "comoTestar": [
+      "Combine seu lanche habitual com uma fonte de proteína prática — iogurte, queijo, ovo, whey.",
+      "Repita por alguns dias e observe a fome antes da próxima refeição.",
+      "Ajuste a combinação até achar uma prática o suficiente pra virar hábito."
+    ],
+    "sinalDeSucesso": "Você chega na próxima refeição principal com menos fome ansiosa.",
+    "tags": ["nao_sei_quanto_comer", "orcamento"],
+    "objetivos": ["ganho", "manutencao"]
+  },
+  {
+    "id": "plano-para-o-social",
+    "titulo": "Um plano para o social",
+    "porque": "Restaurante, festa, happy hour — esses momentos não precisam ser tudo ou nada. Um plano simples evita o efeito \"já foi, então já era\".",
+    "quandoUsar": "Quando compromissos sociais costumam descarrilar o resto da semana.",
+    "comoTestar": [
+      "Antes do evento, decida com calma o que faz sentido pedir ou comer.",
+      "Aproveite o momento sem regras rígidas — o plano é sobre direção, não perfeição.",
+      "No dia seguinte, retome a rotina normal sem tentar compensar."
+    ],
+    "sinalDeSucesso": "Um evento social deixa de virar um fim de semana inteiro fora do eixo.",
+    "tags": ["fim_de_semana", "ansiedade_noturna"],
+    "objetivos": ["ganho", "manutencao", "definicao"]
+  }
+]
