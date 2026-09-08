@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kalibre</title>
+    <script>
+      // GitHub Pages has no server-side rewrites for client-side routing.
+      // This redirects any unknown path to index.html, encoding the original
+      // path in the query string so index.html can restore it via history.replaceState.
+      // Pattern: https://github.com/rafgraph/spa-github-pages
+      var segmentCount = 1 // matches the /Kalibre/ base path segment
+      var l = window.location
+      var path = l.pathname.split('/').slice(0, 1 + segmentCount).join('/')
+      var rest = l.pathname.slice(path.length)
+      l.replace(
+        path +
+          '/?p=' +
+          rest.replace(/&/g, '~and~') +
+          (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+          l.hash,
+      )
+    </script>
+  </head>
+  <body></body>
+</html>
