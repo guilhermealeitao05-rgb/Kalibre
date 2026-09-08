@@ -1,0 +1,98 @@
+[
+  {
+    "id": "aula-01",
+    "tipo": "aula",
+    "titulo": "Por que você travou (e não é falta de dieta nova)",
+    "blocos": [
+      "Travar não é sobre força de vontade. É sobre viver anos com regras genéricas que nunca foram calibradas pra sua rotina.",
+      "Toda dieta nova promete recomeço. Mas o problema raramente é a dieta — é o ajuste fino que nunca foi feito.",
+      "Quem já treina e já come relativamente bem não precisa de mais restrição. Precisa de precisão.",
+      "O Kalibre parte do que você já faz. Não te manda recomeçar do zero."
+    ],
+    "takeaway": "Você não precisa de outra dieta. Precisa calibrar a sua."
+  },
+  {
+    "id": "aula-02",
+    "tipo": "aula",
+    "titulo": "Proteína: quantidade vs. distribuição",
+    "blocos": [
+      "Muita gente já come proteína suficiente no dia — só que toda concentrada numa refeição só, geralmente o jantar.",
+      "O corpo aproveita melhor a proteína quando ela chega em doses ao longo do dia, não tudo de uma vez.",
+      "Isso vale tanto pra quem quer ganhar massa quanto pra quem quer manter o que já construiu.",
+      "Antes de comer mais proteína, olhe pra como ela está distribuída no seu dia."
+    ],
+    "takeaway": "Às vezes o problema não é quanto — é quando."
+  },
+  {
+    "id": "aula-03",
+    "tipo": "aula",
+    "titulo": "Pré e pós-treino sem mito",
+    "blocos": [
+      "Não existe uma janela mágica de minutos que decide seu resultado. Existe consistência ao longo do dia.",
+      "Ainda assim, comer perto do treino ajuda: mais energia pra treinar, mais praticidade pra não esquecer de comer depois.",
+      "Carboidrato antes te dá combustível. Proteína depois ajuda na recuperação. Simples assim — sem suplemento obrigatório.",
+      "O ajuste real está em ter um plano, não em cronometrar minutos."
+    ],
+    "takeaway": "Ter um plano pro pré e pós-treino importa mais que acertar o minuto exato."
+  },
+  {
+    "id": "aula-04",
+    "tipo": "aula",
+    "titulo": "Aderência > perfeição",
+    "blocos": [
+      "Um plano perfeito que você segue por 3 dias vale menos que um plano bom que você segue por 3 meses.",
+      "A ciência de nutrição é cheia de nuances. Mas na prática, o que mais prediz resultado é conseguir manter o combinado.",
+      "É por isso que o Kalibre pede UM ajuste por vez — porque foco é o que sustenta.",
+      "Perfeição é inimiga de constância. E constância é o que realmente calibra."
+    ],
+    "takeaway": "O ajuste que você consegue manter vale mais que o ajuste ideal que você abandona."
+  },
+  {
+    "id": "aula-05",
+    "tipo": "aula",
+    "titulo": "Fim de semana não é trapaça",
+    "blocos": [
+      "Tratar sábado e domingo como \"dias livres totais\" cria um ciclo de recomeço toda segunda-feira.",
+      "Isso não significa abrir mão de momentos sociais — significa manter uma estrutura mínima por trás deles.",
+      "Duas refeições parecidas com as da semana já mudam o resultado do mês inteiro.",
+      "O fim de semana não precisa ser perfeito. Só precisa parar de ser um reset."
+    ],
+    "takeaway": "Fim de semana com estrutura mínima vale mais que semana inteira compensando."
+  },
+  {
+    "id": "aula-06",
+    "tipo": "aula",
+    "titulo": "Como ler a fome de verdade",
+    "blocos": [
+      "Nem toda vontade de comer é fome física. Cansaço, tédio, ansiedade e sede se disfarçam de fome com frequência.",
+      "A fome física costuma vir gradual, aceita várias opções de comida e para quando você está satisfeito.",
+      "A vontade emocional costuma vir de repente, mira um alimento específico e não se satisfaz com facilidade.",
+      "Perceber a diferença não elimina a vontade — mas te dá a escolha de como responder a ela."
+    ],
+    "takeaway": "Antes de decidir o que comer, vale a pena perguntar: isso é fome, ou é outra coisa?"
+  },
+  {
+    "id": "aula-07",
+    "tipo": "aula",
+    "titulo": "O que o número da balança não te conta",
+    "blocos": [
+      "O peso varia por água, sono, ciclo hormonal, estresse e até pela última refeição. Não é uma medida de verdade absoluta.",
+      "Olhar só pra balança esconde progressos reais: mais energia, roupas mais confortáveis, treino mais forte.",
+      "Usar múltiplos sinais — não só o peso — dá uma leitura mais honesta do que está funcionando.",
+      "O Kalibre usa check-ins de energia e aderência junto com o resto, não isolado."
+    ],
+    "takeaway": "O peso é um dado. Não é o retrato inteiro."
+  },
+  {
+    "id": "aula-08",
+    "tipo": "aula",
+    "titulo": "Suplemento não é atalho",
+    "blocos": [
+      "Suplemento existe pra completar o que falta na rotina — não pra substituir a rotina.",
+      "Whey, creatina e afins ajudam quando a base (comida de verdade, consistência, treino) já está calibrada.",
+      "Comprar o suplemento mais caro sem ajustar a base é gastar dinheiro tentando pular uma etapa que não existe.",
+      "Ajuste primeiro o que está no seu prato. O suplemento, se fizer sentido, vem depois."
+    ],
+    "takeaway": "Suplemento reforça uma base boa. Não cria uma."
+  }
+]

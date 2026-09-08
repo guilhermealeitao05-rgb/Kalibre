@@ -1,0 +1,172 @@
+@import 'tailwindcss';
+
+@import '@fontsource/archivo/latin-700.css';
+@import '@fontsource/archivo/latin-ext-700.css';
+@import '@fontsource/archivo/latin-800.css';
+@import '@fontsource/archivo/latin-ext-800.css';
+@import '@fontsource/archivo/latin-900.css';
+@import '@fontsource/archivo/latin-ext-900.css';
+@import '@fontsource/inter/latin-400.css';
+@import '@fontsource/inter/latin-ext-400.css';
+@import '@fontsource/inter/latin-500.css';
+@import '@fontsource/inter/latin-ext-500.css';
+@import '@fontsource/inter/latin-600.css';
+@import '@fontsource/inter/latin-ext-600.css';
+@import '@fontsource/jetbrains-mono/latin-400.css';
+@import '@fontsource/jetbrains-mono/latin-ext-400.css';
+@import '@fontsource/jetbrains-mono/latin-500.css';
+@import '@fontsource/jetbrains-mono/latin-ext-500.css';
+@import '@fontsource/jetbrains-mono/latin-700.css';
+@import '@fontsource/jetbrains-mono/latin-ext-700.css';
+
+:root {
+  --ink: #0b0b0c;
+  --ink-raised: #111113;
+  --bone: #f2eee3;
+  --voltage: #cbff47;
+  --voltage-ink: #0b0b0c;
+  --steel: #8a8a8f;
+  --line: rgba(242, 238, 227, 0.14);
+  --line-strong: rgba(242, 238, 227, 0.28);
+  --danger: #ff4d2e;
+  --ok: var(--voltage);
+
+  --font-display: 'Archivo', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --ease-instrument: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-snap: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  color-scheme: dark;
+}
+
+@theme {
+  --color-ink: var(--ink);
+  --color-ink-raised: var(--ink-raised);
+  --color-bone: var(--bone);
+  --color-voltage: var(--voltage);
+  --color-steel: var(--steel);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-danger: var(--danger);
+  --color-ok: var(--ok);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+
+  --ease-instrument: var(--ease-instrument);
+  --ease-snap: var(--ease-snap);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--ink);
+  color: var(--bone);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100svh;
+  overscroll-behavior-y: none;
+}
+
+#root {
+  min-height: 100svh;
+  position: relative;
+  isolation: isolate;
+}
+
+::selection {
+  background: var(--voltage);
+  color: var(--voltage-ink);
+}
+
+/* grain texture — fixed overlay, cheap (single tiled fractal noise), 2-4% opacity */
+.grain {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  opacity: 0.035;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  background-size: 120px 120px;
+}
+
+/* exposed grid ticks along the viewport edges — subtle instrument-panel motif */
+.calibration-frame {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: 55;
+}
+.calibration-frame::before,
+.calibration-frame::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--line) 0,
+    var(--line) 1px,
+    transparent 1px,
+    transparent 8px
+  );
+}
+.calibration-frame::before {
+  left: 6px;
+}
+.calibration-frame::after {
+  right: 6px;
+}
+
+.font-mono-nums {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum' 1;
+}
+
+a,
+button {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--voltage);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* thin scrollbars, in keeping with instrument aesthetic */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--steel) transparent;
+}
