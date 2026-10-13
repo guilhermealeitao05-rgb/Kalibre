@@ -8,3 +8,6 @@ out
 
 # Vídeos brutos e convertidos (grandes demais para o git)
 public/videos
+
+# Foto de perfil (pessoal, fora do repositório público)
+public/perfil

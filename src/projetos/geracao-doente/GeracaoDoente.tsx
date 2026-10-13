@@ -110,7 +110,7 @@ export const GeracaoDoente: React.FC = () => {
           <FraseApoio palavras={w(177, 179)} fim={f(180)} />
 
           <CaixaAzul palavras={w(155, 157)} fim={f(163)} />
-          <CardPerfil em={f(116)} fim={f(116) + 66} nome="Guilherme Antunes" arroba="@guilherme_antuness" iniciais="GA" />
+          <CardPerfil em={f(116)} fim={f(116) + 66} nome="Guilherme Antunes" arroba="@guilherme_antuness" iniciais="GA" foto={staticFile("perfil/foto.jpg")} />
 
           {/* Telas cheias. */}
           <TelaOMS em={f(41)} fim={f(48)} fonte={w(41, 43, ["segundo", "a", "OMS"])} numero={w(44, 46, ["1", "em", "7"])} destaque={w(47)[0]} />

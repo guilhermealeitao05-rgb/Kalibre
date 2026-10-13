@@ -1,5 +1,5 @@
 import type React from "react";
-import { interpolate, useCurrentFrame } from "remotion";
+import { Img, interpolate, useCurrentFrame } from "remotion";
 import { entrada, saida, visivel } from "./animacao";
 import { AREA_SEGURA, COR, FONTE } from "./tokens";
 
@@ -11,7 +11,8 @@ export const CardPerfil: React.FC<{
   readonly nome: string;
   readonly arroba: string;
   readonly iniciais: string;
-}> = ({ em, fim, nome, arroba, iniciais }) => {
+  readonly foto?: string; // foto de perfil (recorte quadrado); sem ela, mostra as iniciais
+}> = ({ em, fim, nome, arroba, iniciais, foto }) => {
   const frame = useCurrentFrame();
   if (!visivel(frame, em, fim)) {
     return null;
@@ -52,9 +53,14 @@ export const CardPerfil: React.FC<{
           fontSize: 42,
           letterSpacing: "-0.03em",
           flexShrink: 0,
+          overflow: "hidden",
         }}
       >
-        {iniciais}
+        {foto ? (
+          <Img src={foto} style={{ width: "100%", height: "100%", objectFit: "cover" }} />
+        ) : (
+          iniciais
+        )}
       </div>
       <div style={{ flex: 1, minWidth: 0 }}>
         <div style={{ fontWeight: 800, fontSize: 40, letterSpacing: "-0.03em", whiteSpace: "nowrap" }}>{nome}</div>
