@@ -1,0 +1,976 @@
+{
+ "fonte": "public/videos/geracao-doente.mp4 (H.264 convertido do HDR do iPhone, cor A)",
+ "trechos_mantidos_s": [
+  [
+   0.0,
+   7.8
+  ],
+  [
+   8.01,
+   20.47
+  ],
+  [
+   20.71,
+   26.0
+  ],
+  [
+   26.14,
+   29.73
+  ],
+  [
+   30.07,
+   31.21
+  ],
+  [
+   31.37,
+   49.24
+  ],
+  [
+   49.41,
+   56.98
+  ]
+ ],
+ "duracao_fala_s": 55.72,
+ "palavras": [
+  {
+   "texto": "A",
+   "inicio_original_s": 0.24,
+   "inicio_editado_s": 0.24
+  },
+  {
+   "texto": "geração",
+   "inicio_original_s": 0.38,
+   "inicio_editado_s": 0.38
+  },
+  {
+   "texto": "que",
+   "inicio_original_s": 0.92,
+   "inicio_editado_s": 0.92
+  },
+  {
+   "texto": "mais",
+   "inicio_original_s": 1.18,
+   "inicio_editado_s": 1.18
+  },
+  {
+   "texto": "se",
+   "inicio_original_s": 1.32,
+   "inicio_editado_s": 1.32
+  },
+  {
+   "texto": "preocupa",
+   "inicio_original_s": 1.52,
+   "inicio_editado_s": 1.52
+  },
+  {
+   "texto": "com",
+   "inicio_original_s": 1.72,
+   "inicio_editado_s": 1.72
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 1.84,
+   "inicio_editado_s": 1.84
+  },
+  {
+   "texto": "saúde",
+   "inicio_original_s": 2.18,
+   "inicio_editado_s": 2.18
+  },
+  {
+   "texto": "é",
+   "inicio_original_s": 2.38,
+   "inicio_editado_s": 2.38
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 2.48,
+   "inicio_editado_s": 2.48
+  },
+  {
+   "texto": "que",
+   "inicio_original_s": 2.52,
+   "inicio_editado_s": 2.52
+  },
+  {
+   "texto": "está",
+   "inicio_original_s": 2.66,
+   "inicio_editado_s": 2.66
+  },
+  {
+   "texto": "se",
+   "inicio_original_s": 2.76,
+   "inicio_editado_s": 2.76
+  },
+  {
+   "texto": "tornando",
+   "inicio_original_s": 2.92,
+   "inicio_editado_s": 2.92
+  },
+  {
+   "texto": "mais",
+   "inicio_original_s": 3.44,
+   "inicio_editado_s": 3.44
+  },
+  {
+   "texto": "doente.",
+   "inicio_original_s": 3.62,
+   "inicio_editado_s": 3.62
+  },
+  {
+   "texto": "Nunca",
+   "inicio_original_s": 4.16,
+   "inicio_editado_s": 4.16
+  },
+  {
+   "texto": "se",
+   "inicio_original_s": 4.42,
+   "inicio_editado_s": 4.42
+  },
+  {
+   "texto": "falou",
+   "inicio_original_s": 4.62,
+   "inicio_editado_s": 4.62
+  },
+  {
+   "texto": "tanto",
+   "inicio_original_s": 4.92,
+   "inicio_editado_s": 4.92
+  },
+  {
+   "texto": "sobre",
+   "inicio_original_s": 5.24,
+   "inicio_editado_s": 5.24
+  },
+  {
+   "texto": "dieta,",
+   "inicio_original_s": 5.62,
+   "inicio_editado_s": 5.62
+  },
+  {
+   "texto": "academia,",
+   "inicio_original_s": 6.12,
+   "inicio_editado_s": 6.12
+  },
+  {
+   "texto": "corpo",
+   "inicio_original_s": 6.54,
+   "inicio_editado_s": 6.54
+  },
+  {
+   "texto": "perfeito,",
+   "inicio_original_s": 6.74,
+   "inicio_editado_s": 6.74
+  },
+  {
+   "texto": "saúde",
+   "inicio_original_s": 7.34,
+   "inicio_editado_s": 7.34
+  },
+  {
+   "texto": "mental,",
+   "inicio_original_s": 7.66,
+   "inicio_editado_s": 7.66
+  },
+  {
+   "texto": "mas",
+   "inicio_original_s": 8.2,
+   "inicio_editado_s": 7.99
+  },
+  {
+   "texto": "será",
+   "inicio_original_s": 8.42,
+   "inicio_editado_s": 8.21
+  },
+  {
+   "texto": "que",
+   "inicio_original_s": 8.68,
+   "inicio_editado_s": 8.47
+  },
+  {
+   "texto": "estamos",
+   "inicio_original_s": 8.94,
+   "inicio_editado_s": 8.73
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 9.12,
+   "inicio_editado_s": 8.91
+  },
+  {
+   "texto": "fato",
+   "inicio_original_s": 9.46,
+   "inicio_editado_s": 9.25
+  },
+  {
+   "texto": "ficando",
+   "inicio_original_s": 9.72,
+   "inicio_editado_s": 9.51
+  },
+  {
+   "texto": "mais",
+   "inicio_original_s": 10.06,
+   "inicio_editado_s": 9.85
+  },
+  {
+   "texto": "saudáveis?",
+   "inicio_original_s": 10.26,
+   "inicio_editado_s": 10.05
+  },
+  {
+   "texto": "Para",
+   "inicio_original_s": 10.78,
+   "inicio_editado_s": 10.57
+  },
+  {
+   "texto": "vocês",
+   "inicio_original_s": 11.06,
+   "inicio_editado_s": 10.85
+  },
+  {
+   "texto": "terem",
+   "inicio_original_s": 11.36,
+   "inicio_editado_s": 11.15
+  },
+  {
+   "texto": "noção,",
+   "inicio_original_s": 11.6,
+   "inicio_editado_s": 11.39
+  },
+  {
+   "texto": "segundo",
+   "inicio_original_s": 12.44,
+   "inicio_editado_s": 12.23
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 12.44,
+   "inicio_editado_s": 12.23
+  },
+  {
+   "texto": "OMS,",
+   "inicio_original_s": 12.64,
+   "inicio_editado_s": 12.43
+  },
+  {
+   "texto": "um",
+   "inicio_original_s": 13.42,
+   "inicio_editado_s": 13.21
+  },
+  {
+   "texto": "em",
+   "inicio_original_s": 13.66,
+   "inicio_editado_s": 13.45
+  },
+  {
+   "texto": "sete",
+   "inicio_original_s": 13.9,
+   "inicio_editado_s": 13.69
+  },
+  {
+   "texto": "adolescentes",
+   "inicio_original_s": 14.06,
+   "inicio_editado_s": 13.85
+  },
+  {
+   "texto": "estão",
+   "inicio_original_s": 15.06,
+   "inicio_editado_s": 14.85
+  },
+  {
+   "texto": "com",
+   "inicio_original_s": 15.18,
+   "inicio_editado_s": 14.97
+  },
+  {
+   "texto": "algum",
+   "inicio_original_s": 15.34,
+   "inicio_editado_s": 15.13
+  },
+  {
+   "texto": "transtorno",
+   "inicio_original_s": 15.48,
+   "inicio_editado_s": 15.27
+  },
+  {
+   "texto": "mental.",
+   "inicio_original_s": 15.96,
+   "inicio_editado_s": 15.75
+  },
+  {
+   "texto": "E",
+   "inicio_original_s": 16.18,
+   "inicio_editado_s": 15.97
+  },
+  {
+   "texto": "ao",
+   "inicio_original_s": 16.28,
+   "inicio_editado_s": 16.07
+  },
+  {
+   "texto": "mesmo",
+   "inicio_original_s": 16.52,
+   "inicio_editado_s": 16.31
+  },
+  {
+   "texto": "tempo",
+   "inicio_original_s": 16.98,
+   "inicio_editado_s": 16.77
+  },
+  {
+   "texto": "vivemos",
+   "inicio_original_s": 17.18,
+   "inicio_editado_s": 16.97
+  },
+  {
+   "texto": "cercados",
+   "inicio_original_s": 17.66,
+   "inicio_editado_s": 17.45
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 18.1,
+   "inicio_editado_s": 17.89
+  },
+  {
+   "texto": "notificação,",
+   "inicio_original_s": 18.18,
+   "inicio_editado_s": 17.97
+  },
+  {
+   "texto": "dopamina",
+   "inicio_original_s": 18.94,
+   "inicio_editado_s": 18.73
+  },
+  {
+   "texto": "barata,",
+   "inicio_original_s": 19.42,
+   "inicio_editado_s": 19.21
+  },
+  {
+   "texto": "vídeos",
+   "inicio_original_s": 19.94,
+   "inicio_editado_s": 19.73
+  },
+  {
+   "texto": "curtos,",
+   "inicio_original_s": 20.26,
+   "inicio_editado_s": 20.05
+  },
+  {
+   "texto": "sempre",
+   "inicio_original_s": 21.0,
+   "inicio_editado_s": 20.55
+  },
+  {
+   "texto": "na",
+   "inicio_original_s": 21.2,
+   "inicio_editado_s": 20.75
+  },
+  {
+   "texto": "necessidade",
+   "inicio_original_s": 21.42,
+   "inicio_editado_s": 20.97
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 22.06,
+   "inicio_editado_s": 21.61
+  },
+  {
+   "texto": "algum",
+   "inicio_original_s": 22.28,
+   "inicio_editado_s": 21.83
+  },
+  {
+   "texto": "estímulo.",
+   "inicio_original_s": 22.5,
+   "inicio_editado_s": 22.05
+  },
+  {
+   "texto": "É",
+   "inicio_original_s": 22.92,
+   "inicio_editado_s": 22.47
+  },
+  {
+   "texto": "aquele",
+   "inicio_original_s": 23.22,
+   "inicio_editado_s": 22.77
+  },
+  {
+   "texto": "negócio,",
+   "inicio_original_s": 23.62,
+   "inicio_editado_s": 23.17
+  },
+  {
+   "texto": "sempre",
+   "inicio_original_s": 23.96,
+   "inicio_editado_s": 23.51
+  },
+  {
+   "texto": "queremos",
+   "inicio_original_s": 24.28,
+   "inicio_editado_s": 23.83
+  },
+  {
+   "texto": "resultados",
+   "inicio_original_s": 24.62,
+   "inicio_editado_s": 24.17
+  },
+  {
+   "texto": "rápidos,",
+   "inicio_original_s": 25.06,
+   "inicio_editado_s": 24.61
+  },
+  {
+   "texto": "corpos",
+   "inicio_original_s": 25.46,
+   "inicio_editado_s": 25.01
+  },
+  {
+   "texto": "perfeitos,",
+   "inicio_original_s": 25.76,
+   "inicio_editado_s": 25.31
+  },
+  {
+   "texto": "e",
+   "inicio_original_s": 26.32,
+   "inicio_editado_s": 25.73
+  },
+  {
+   "texto": "quando",
+   "inicio_original_s": 26.48,
+   "inicio_editado_s": 25.89
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 26.66,
+   "inicio_editado_s": 26.07
+  },
+  {
+   "texto": "vida",
+   "inicio_original_s": 26.86,
+   "inicio_editado_s": 26.27
+  },
+  {
+   "texto": "exige",
+   "inicio_original_s": 27.14,
+   "inicio_editado_s": 26.55
+  },
+  {
+   "texto": "um",
+   "inicio_original_s": 27.6,
+   "inicio_editado_s": 27.01
+  },
+  {
+   "texto": "mínimo",
+   "inicio_original_s": 27.9,
+   "inicio_editado_s": 27.31
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 28.16,
+   "inicio_editado_s": 27.57
+  },
+  {
+   "texto": "esforço,",
+   "inicio_original_s": 28.16,
+   "inicio_editado_s": 27.57
+  },
+  {
+   "texto": "disciplina",
+   "inicio_original_s": 28.84,
+   "inicio_editado_s": 28.25
+  },
+  {
+   "texto": "e",
+   "inicio_original_s": 29.12,
+   "inicio_editado_s": 28.53
+  },
+  {
+   "texto": "constância,",
+   "inicio_original_s": 29.34,
+   "inicio_editado_s": 28.75
+  },
+  {
+   "texto": "tudo",
+   "inicio_original_s": 30.26,
+   "inicio_editado_s": 29.33
+  },
+  {
+   "texto": "fica",
+   "inicio_original_s": 30.6,
+   "inicio_editado_s": 29.67
+  },
+  {
+   "texto": "mais",
+   "inicio_original_s": 30.82,
+   "inicio_editado_s": 29.89
+  },
+  {
+   "texto": "difícil.",
+   "inicio_original_s": 31.1,
+   "inicio_editado_s": 30.17
+  },
+  {
+   "texto": "A",
+   "inicio_original_s": 31.5,
+   "inicio_editado_s": 30.41
+  },
+  {
+   "texto": "cobrança",
+   "inicio_original_s": 31.62,
+   "inicio_editado_s": 30.53
+  },
+  {
+   "texto": "estética",
+   "inicio_original_s": 32.12,
+   "inicio_editado_s": 31.03
+  },
+  {
+   "texto": "aumenta,",
+   "inicio_original_s": 32.64,
+   "inicio_editado_s": 31.55
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 32.92,
+   "inicio_editado_s": 31.83
+  },
+  {
+   "texto": "comparação",
+   "inicio_original_s": 33.06,
+   "inicio_editado_s": 31.97
+  },
+  {
+   "texto": "nunca",
+   "inicio_original_s": 33.68,
+   "inicio_editado_s": 32.59
+  },
+  {
+   "texto": "termina,",
+   "inicio_original_s": 34.04,
+   "inicio_editado_s": 32.95
+  },
+  {
+   "texto": "e",
+   "inicio_original_s": 34.4,
+   "inicio_editado_s": 33.31
+  },
+  {
+   "texto": "até",
+   "inicio_original_s": 34.6,
+   "inicio_editado_s": 33.51
+  },
+  {
+   "texto": "o",
+   "inicio_original_s": 34.74,
+   "inicio_editado_s": 33.65
+  },
+  {
+   "texto": "cuidado",
+   "inicio_original_s": 35.04,
+   "inicio_editado_s": 33.95
+  },
+  {
+   "texto": "com",
+   "inicio_original_s": 35.22,
+   "inicio_editado_s": 34.13
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 35.34,
+   "inicio_editado_s": 34.25
+  },
+  {
+   "texto": "própria",
+   "inicio_original_s": 35.56,
+   "inicio_editado_s": 34.47
+  },
+  {
+   "texto": "saúde",
+   "inicio_original_s": 36.06,
+   "inicio_editado_s": 34.97
+  },
+  {
+   "texto": "pode",
+   "inicio_original_s": 36.42,
+   "inicio_editado_s": 35.33
+  },
+  {
+   "texto": "virar",
+   "inicio_original_s": 36.62,
+   "inicio_editado_s": 35.53
+  },
+  {
+   "texto": "uma",
+   "inicio_original_s": 36.78,
+   "inicio_editado_s": 35.69
+  },
+  {
+   "texto": "obsessão.",
+   "inicio_original_s": 36.94,
+   "inicio_editado_s": 35.85
+  },
+  {
+   "texto": "O",
+   "inicio_original_s": 37.5,
+   "inicio_editado_s": 36.41
+  },
+  {
+   "texto": "problema",
+   "inicio_original_s": 37.82,
+   "inicio_editado_s": 36.73
+  },
+  {
+   "texto": "é",
+   "inicio_original_s": 38.2,
+   "inicio_editado_s": 37.11
+  },
+  {
+   "texto": "que",
+   "inicio_original_s": 38.26,
+   "inicio_editado_s": 37.17
+  },
+  {
+   "texto": "cuidar",
+   "inicio_original_s": 38.52,
+   "inicio_editado_s": 37.43
+  },
+  {
+   "texto": "da",
+   "inicio_original_s": 38.7,
+   "inicio_editado_s": 37.61
+  },
+  {
+   "texto": "saúde",
+   "inicio_original_s": 39.06,
+   "inicio_editado_s": 37.97
+  },
+  {
+   "texto": "não",
+   "inicio_original_s": 39.22,
+   "inicio_editado_s": 38.13
+  },
+  {
+   "texto": "deveria",
+   "inicio_original_s": 39.4,
+   "inicio_editado_s": 38.31
+  },
+  {
+   "texto": "ser",
+   "inicio_original_s": 39.72,
+   "inicio_editado_s": 38.63
+  },
+  {
+   "texto": "um",
+   "inicio_original_s": 39.82,
+   "inicio_editado_s": 38.73
+  },
+  {
+   "texto": "motivo",
+   "inicio_original_s": 40.14,
+   "inicio_editado_s": 39.05
+  },
+  {
+   "texto": "para",
+   "inicio_original_s": 40.32,
+   "inicio_editado_s": 39.23
+  },
+  {
+   "texto": "viver",
+   "inicio_original_s": 40.5,
+   "inicio_editado_s": 39.41
+  },
+  {
+   "texto": "ansioso,",
+   "inicio_original_s": 40.98,
+   "inicio_editado_s": 39.89
+  },
+  {
+   "texto": "para",
+   "inicio_original_s": 41.26,
+   "inicio_editado_s": 40.17
+  },
+  {
+   "texto": "ter",
+   "inicio_original_s": 41.42,
+   "inicio_editado_s": 40.33
+  },
+  {
+   "texto": "um",
+   "inicio_original_s": 41.56,
+   "inicio_editado_s": 40.47
+  },
+  {
+   "texto": "corpo",
+   "inicio_original_s": 41.76,
+   "inicio_editado_s": 40.67
+  },
+  {
+   "texto": "perfeito.",
+   "inicio_original_s": 41.96,
+   "inicio_editado_s": 40.87
+  },
+  {
+   "texto": "Talvez",
+   "inicio_original_s": 42.46,
+   "inicio_editado_s": 41.37
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 42.92,
+   "inicio_editado_s": 41.83
+  },
+  {
+   "texto": "gente",
+   "inicio_original_s": 43.02,
+   "inicio_editado_s": 41.93
+  },
+  {
+   "texto": "precise",
+   "inicio_original_s": 43.3,
+   "inicio_editado_s": 42.21
+  },
+  {
+   "texto": "apenas",
+   "inicio_original_s": 43.66,
+   "inicio_editado_s": 42.57
+  },
+  {
+   "texto": "parar",
+   "inicio_original_s": 44.08,
+   "inicio_editado_s": 42.99
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 44.3,
+   "inicio_editado_s": 43.21
+  },
+  {
+   "texto": "perguntar",
+   "inicio_original_s": 44.58,
+   "inicio_editado_s": 43.49
+  },
+  {
+   "texto": "como",
+   "inicio_original_s": 45.14,
+   "inicio_editado_s": 44.05
+  },
+  {
+   "texto": "melhorar",
+   "inicio_original_s": 45.48,
+   "inicio_editado_s": 44.39
+  },
+  {
+   "texto": "o",
+   "inicio_original_s": 45.78,
+   "inicio_editado_s": 44.69
+  },
+  {
+   "texto": "corpo",
+   "inicio_original_s": 46.12,
+   "inicio_editado_s": 45.03
+  },
+  {
+   "texto": "e",
+   "inicio_original_s": 46.6,
+   "inicio_editado_s": 45.51
+  },
+  {
+   "texto": "sim",
+   "inicio_original_s": 46.78,
+   "inicio_editado_s": 45.69
+  },
+  {
+   "texto": "refletir",
+   "inicio_original_s": 46.98,
+   "inicio_editado_s": 45.89
+  },
+  {
+   "texto": "para",
+   "inicio_original_s": 47.36,
+   "inicio_editado_s": 46.27
+  },
+  {
+   "texto": "saber",
+   "inicio_original_s": 47.6,
+   "inicio_editado_s": 46.51
+  },
+  {
+   "texto": "se",
+   "inicio_original_s": 47.72,
+   "inicio_editado_s": 46.63
+  },
+  {
+   "texto": "o",
+   "inicio_original_s": 47.76,
+   "inicio_editado_s": 46.67
+  },
+  {
+   "texto": "estilo",
+   "inicio_original_s": 47.96,
+   "inicio_editado_s": 46.87
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 48.16,
+   "inicio_editado_s": 47.07
+  },
+  {
+   "texto": "vida",
+   "inicio_original_s": 48.3,
+   "inicio_editado_s": 47.21
+  },
+  {
+   "texto": "que",
+   "inicio_original_s": 48.44,
+   "inicio_editado_s": 47.35
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 48.48,
+   "inicio_editado_s": 47.39
+  },
+  {
+   "texto": "gente",
+   "inicio_original_s": 48.6,
+   "inicio_editado_s": 47.51
+  },
+  {
+   "texto": "está",
+   "inicio_original_s": 48.76,
+   "inicio_editado_s": 47.67
+  },
+  {
+   "texto": "levando",
+   "inicio_original_s": 48.92,
+   "inicio_editado_s": 47.83
+  },
+  {
+   "texto": "está",
+   "inicio_original_s": 49.64,
+   "inicio_editado_s": 48.38
+  },
+  {
+   "texto": "sendo",
+   "inicio_original_s": 49.9,
+   "inicio_editado_s": 48.64
+  },
+  {
+   "texto": "prejudicial",
+   "inicio_original_s": 50.16,
+   "inicio_editado_s": 48.9
+  },
+  {
+   "texto": "ou",
+   "inicio_original_s": 50.94,
+   "inicio_editado_s": 49.68
+  },
+  {
+   "texto": "não",
+   "inicio_original_s": 51.16,
+   "inicio_editado_s": 49.9
+  },
+  {
+   "texto": "à",
+   "inicio_original_s": 51.42,
+   "inicio_editado_s": 50.16
+  },
+  {
+   "texto": "nossa",
+   "inicio_original_s": 51.6,
+   "inicio_editado_s": 50.34
+  },
+  {
+   "texto": "saúde.",
+   "inicio_original_s": 52.08,
+   "inicio_editado_s": 50.82
+  },
+  {
+   "texto": "Porque",
+   "inicio_original_s": 52.34,
+   "inicio_editado_s": 51.08
+  },
+  {
+   "texto": "não",
+   "inicio_original_s": 52.56,
+   "inicio_editado_s": 51.3
+  },
+  {
+   "texto": "adianta",
+   "inicio_original_s": 52.8,
+   "inicio_editado_s": 51.54
+  },
+  {
+   "texto": "conquistar",
+   "inicio_original_s": 53.26,
+   "inicio_editado_s": 52.0
+  },
+  {
+   "texto": "o",
+   "inicio_original_s": 53.62,
+   "inicio_editado_s": 52.36
+  },
+  {
+   "texto": "físico",
+   "inicio_original_s": 53.82,
+   "inicio_editado_s": 52.56
+  },
+  {
+   "texto": "que",
+   "inicio_original_s": 54.06,
+   "inicio_editado_s": 52.8
+  },
+  {
+   "texto": "você",
+   "inicio_original_s": 54.24,
+   "inicio_editado_s": 52.98
+  },
+  {
+   "texto": "deseja",
+   "inicio_original_s": 54.46,
+   "inicio_editado_s": 53.2
+  },
+  {
+   "texto": "e",
+   "inicio_original_s": 55.06,
+   "inicio_editado_s": 53.8
+  },
+  {
+   "texto": "perder",
+   "inicio_original_s": 55.32,
+   "inicio_editado_s": 54.06
+  },
+  {
+   "texto": "sua",
+   "inicio_original_s": 55.54,
+   "inicio_editado_s": 54.28
+  },
+  {
+   "texto": "qualidade",
+   "inicio_original_s": 55.88,
+   "inicio_editado_s": 54.62
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 56.1,
+   "inicio_editado_s": 54.84
+  },
+  {
+   "texto": "vida",
+   "inicio_original_s": 56.26,
+   "inicio_editado_s": 55.0
+  },
+  {
+   "texto": "no",
+   "inicio_original_s": 56.4,
+   "inicio_editado_s": 55.14
+  },
+  {
+   "texto": "processo.",
+   "inicio_original_s": 56.7,
+   "inicio_editado_s": 55.44
+  }
+ ]
+}
