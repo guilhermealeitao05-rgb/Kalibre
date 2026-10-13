@@ -7,6 +7,11 @@ Tudo aqui foi **medido** nos vídeos, quadro a quadro. Quando algo não pôde se
 
 > "Gostei por ser um vídeo bastante dinâmico e ilustrativo. A maneira como os elementos aparecem, os efeitos sonoros são bem equilibrados e o resultado ficou muito bom."
 
+## Estilo padrão escolhido: V3
+
+O Guilherme escolheu o **V3** (tipografia gigante + telas cheias) como padrão dos vídeos dele.
+Ao editar, siga a seção **"V3: tipografia gigante + telas cheias"** abaixo. Os outros dois ficam só como referência.
+
 ## Os 3 vídeos analisados
 
 | # | Perfil | Duração útil | Visual |
