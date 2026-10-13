@@ -1,8 +1,6 @@
-# Estúdio de edição de vídeos do Guilherme Antunes
+# Editor de vídeos do Guilherme Antunes
 
-Este repositório é **só um estúdio de edição de vídeos** (Remotion + whisper.cpp).
-"Kalibre" é apenas o nome do repositório: o antigo app fitness Kalibre foi abandonado.
-Nunca use o nome, a marca ou a identidade visual do Kalibre nos vídeos.
+Este repositório é **um editor de vídeos** para o Instagram (Remotion + whisper.cpp).
 A marca é **Guilherme Antunes** (@guilherme_antuness).
 
 ## Antes de editar qualquer vídeo

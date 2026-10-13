@@ -1,5 +1,5 @@
 #!/bin/bash
-# Prepara o estúdio Kalibre em cada sessão nova na nuvem:
+# Prepara o editor de vídeos em cada sessão nova na nuvem:
 #   1. dependências npm (Remotion)
 #   2. whisper.cpp compilado em ~/tools/whisper.cpp + atalho whisper-cli
 #   3. modelo ggml-small.bin (multilíngue)
@@ -80,4 +80,4 @@ if [ ${#failed[@]} -gt 0 ]; then
   echo "Instalação automática FALHOU em: ${failed[*]}. Veja o log acima."
   exit 1
 fi
-echo "Estúdio Kalibre pronto: npm, whisper-cli e modelo $MODEL."
+echo "Editor de vídeos pronto: npm, whisper-cli e modelo $MODEL."

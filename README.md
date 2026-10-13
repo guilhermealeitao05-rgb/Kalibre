@@ -1,4 +1,4 @@
-# Estúdio de vídeos — Guilherme Antunes
+# Editor de vídeos — Guilherme Antunes
 
 Editor de vídeos com IA para o Instagram [@guilherme_antuness](https://www.instagram.com/guilherme_antuness/),
 com conteúdo sobre nutrição, mentalidade, performance, alimentação, exercício e saúde.
@@ -10,5 +10,3 @@ com cortes, legendas animadas em português, textos, música e CTAs para seguir.
 - Animação e render: [Remotion](https://www.remotion.dev/) (detalhes em `README.remotion.md`)
 - Legendas automáticas: [whisper.cpp](https://github.com/ggml-org/whisper.cpp) com o modelo `small` multilíngue
 - Perfil do criador (público, tom e estilo): `perfil.md`
-
-O nome "Kalibre" é só o nome do repositório: ele não tem relação com os vídeos.
