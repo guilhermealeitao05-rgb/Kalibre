@@ -9,4 +9,5 @@ com cortes, legendas animadas em português, textos, música e CTAs para seguir.
 - Formato: vertical 1080x1920, 30 fps, até um minuto
 - Animação e render: [Remotion](https://www.remotion.dev/) (detalhes em `README.remotion.md`)
 - Legendas automáticas: [whisper.cpp](https://github.com/ggml-org/whisper.cpp) com o modelo `small` multilíngue
-- Perfil do criador (público, tom e estilo): `perfil.md`
+- Perfil do criador (público e tom): `perfil.md`
+- Estilo de edição (medido em vídeos de referência): `estilo.md`

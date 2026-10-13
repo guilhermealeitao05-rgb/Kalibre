@@ -6,7 +6,8 @@ A marca é **Guilherme Antunes** (@guilherme_antuness).
 ## Antes de editar qualquer vídeo
 
 1. Leia `perfil.md`. Ele descreve quem é o criador, o público e o tom dos vídeos.
-2. Siga as skills do Remotion em `.claude/skills`, principalmente `remotion-best-practices` e `remotion-captions`.
+2. Leia `estilo.md`. É o estilo de edição dele, medido em vídeos de referência (legenda, cores, ritmo, som).
+3. Siga as skills do Remotion em `.claude/skills`, principalmente `remotion-best-practices` e `remotion-captions`.
 
 ## Padrões dos vídeos
 
