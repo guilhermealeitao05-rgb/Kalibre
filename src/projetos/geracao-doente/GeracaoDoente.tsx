@@ -34,6 +34,9 @@ export const GeracaoDoente: React.FC = () => {
           from={t.inicioEditado}
           durationInFrames={t.duracao}
           trimBefore={t.inicioOriginal}
+          // A voz do iPhone já chega alta (−8,7 LUFS): −6 dB aqui deixa os efeitos
+          // ~18 dB abaixo dela, como no plano. O volume final é ajustado para −14 LUFS.
+          volume={0.5}
           premountFor={fps}
           style={{
             position: "absolute",
