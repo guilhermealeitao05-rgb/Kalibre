@@ -3,6 +3,8 @@ import { VIDEO_FPS, VIDEO_HEIGHT, VIDEO_WIDTH } from "./config/video";
 import { GeracaoDoente } from "./projetos/geracao-doente/GeracaoDoente";
 import { DURACAO_TOTAL } from "./projetos/geracao-doente/dados";
 import { DopaminaBarata } from "./projetos/dopamina-barata/DopaminaBarata";
+import { DopaminaBarataLeve } from "./projetos/dopamina-barata/DopaminaBarataLeve";
+import { DopaminaBarataMax } from "./projetos/dopamina-barata/DopaminaBarataMax";
 import { LINHA as LINHA_DOPAMINA } from "./projetos/dopamina-barata/dados";
 import { Teste } from "./Teste";
 
@@ -28,6 +30,22 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="DopaminaBarata"
         component={DopaminaBarata}
+        durationInFrames={LINHA_DOPAMINA.duracaoTotal}
+        fps={VIDEO_FPS}
+        width={VIDEO_WIDTH}
+        height={VIDEO_HEIGHT}
+      />
+      <Composition
+        id="DopaminaBarataLeve"
+        component={DopaminaBarataLeve}
+        durationInFrames={LINHA_DOPAMINA.duracaoTotal}
+        fps={VIDEO_FPS}
+        width={VIDEO_WIDTH}
+        height={VIDEO_HEIGHT}
+      />
+      <Composition
+        id="DopaminaBarataMax"
+        component={DopaminaBarataMax}
         durationInFrames={LINHA_DOPAMINA.duracaoTotal}
         fps={VIDEO_FPS}
         width={VIDEO_WIDTH}

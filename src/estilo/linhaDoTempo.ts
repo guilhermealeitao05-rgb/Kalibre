@@ -64,7 +64,7 @@ export const criarLinhaDoTempo = ({
     trechos.find((s) => quadro >= s.inicioEditado && quadro < s.inicioEditado + s.duracao) ?? null;
 
   // Máscara da pessoa no quadro editado `quadro`, com o mesmo zoom do vídeo.
-  const recorteNoQuadro = (quadro: number, escalaExtra = 1): Recorte | null => {
+  const recorteNoQuadro = (quadro: number, escalaExtra = 1, deslocX = 0, deslocY = 0): Recorte | null => {
     const t = trechoNoQuadro(quadro);
     if (!t) {
       return null;
@@ -75,6 +75,8 @@ export const criarLinhaDoTempo = ({
       escala: t.zoom * escalaExtra,
       origemX: origemZoom.x,
       origemY: origemZoom.y,
+      deslocX,
+      deslocY,
     };
   };
 
@@ -85,6 +87,7 @@ export const criarLinhaDoTempo = ({
     fimDaFala,
     duracaoTotal: fimDaFala + duracaoTelaFinal,
     punch,
+    trechoNoQuadro,
     recorteNoQuadro,
     origemZoom,
   };

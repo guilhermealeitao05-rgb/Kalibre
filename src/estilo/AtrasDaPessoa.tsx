@@ -8,6 +8,9 @@ export type Recorte = {
   readonly escala: number;
   readonly origemX: number;
   readonly origemY: number;
+  // Deslocamento do vídeo naquele quadro (tremida de câmera), em px.
+  readonly deslocX?: number;
+  readonly deslocY?: number;
 };
 
 // Tudo que fica aqui dentro aparece ATRÁS da pessoa: a máscara esconde o
@@ -19,14 +22,14 @@ export const AtrasDaPessoa: React.FC<{
   if (!recorte) {
     return <AbsoluteFill>{children}</AbsoluteFill>;
   }
-  const { src, escala, origemX, origemY } = recorte;
+  const { src, escala, origemX, origemY, deslocX = 0, deslocY = 0 } = recorte;
   const mascara: React.CSSProperties = {
     maskImage: `url("${src}")`,
     WebkitMaskImage: `url("${src}")`,
     maskSize: `${1080 * escala}px ${1920 * escala}px`,
     WebkitMaskSize: `${1080 * escala}px ${1920 * escala}px`,
-    maskPosition: `${origemX - origemX * escala}px ${origemY - origemY * escala}px`,
-    WebkitMaskPosition: `${origemX - origemX * escala}px ${origemY - origemY * escala}px`,
+    maskPosition: `${origemX - origemX * escala + deslocX}px ${origemY - origemY * escala + deslocY}px`,
+    WebkitMaskPosition: `${origemX - origemX * escala + deslocX}px ${origemY - origemY * escala + deslocY}px`,
     maskRepeat: "no-repeat",
     WebkitMaskRepeat: "no-repeat",
   };

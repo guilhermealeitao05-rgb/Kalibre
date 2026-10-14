@@ -408,3 +408,30 @@ export const Bloco: React.FC<{
     ))}
   </div>
 );
+
+// Bateria descarregando (sem porcentagem, para não inventar dado).
+export const CardBateria: React.FC<{
+  readonly rotulo: string;
+  readonly em: number;
+  readonly ate: number;
+  readonly fim: number;
+  readonly topo?: number;
+}> = ({ rotulo, em, ate, fim, topo = 980 }) => {
+  const frame = useCurrentFrame();
+  if (!visivel(frame, em, fim)) {
+    return null;
+  }
+  const carga = interpolate(frame, [em + 4, ate], [1, 0.12], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+  const cor = carga > 0.35 ? COR.azul : "#FF3B30";
+  return (
+    <Card em={em} fim={fim} style={{ left: CENTRO_X - 260, top: topo, width: 520, padding: "30px 36px" }}>
+      <div style={{ fontWeight: 800, fontSize: 44, letterSpacing: "-0.03em", marginBottom: 18 }}>{rotulo}</div>
+      <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+        <div style={{ width: 400, height: 120, borderRadius: 26, border: `8px solid ${COR.texto}`, padding: 8, boxSizing: "border-box" }}>
+          <div style={{ width: `${100 * carga}%`, height: "100%", borderRadius: 14, backgroundColor: cor }} />
+        </div>
+        <div style={{ width: 16, height: 46, borderRadius: 6, backgroundColor: COR.texto }} />
+      </div>
+    </Card>
+  );
+};
