@@ -23,6 +23,29 @@ A marca é **Guilherme Antunes** (@guilherme_antuness).
 - Quando um vídeo ficar pronto, mande o MP4 na conversa.
 - Trabalhe no ramo `remotion-studio`. Não mexa no `main` e não crie pull request sem ele pedir.
 
+## Fluxo de edição aprovado (modelo: `projetos/geracao-doente/`)
+
+Sempre em etapas, esperando a aprovação do Guilherme entre elas:
+
+1. **Baixar e transcrever.**
+   - Os vídeos vêm do Google Drive. Para baixar, o arquivo precisa estar como "Qualquer pessoa com o link"; peça isso a ele.
+   - Vídeo HDR do iPhone (HLG/BT.2020): converta para H.264 BT.709 com o tone-map `hable` (a "cor A" que ele aprovou), sem nenhum outro ajuste de cor.
+   - Transcreva com whisper.cpp (`-dtw small -nfa` dá o tempo exato de cada palavra).
+   - Mostre o que vai cortar (silêncios > 0,2 s, erros, repetições, "tipo/cara/né") e as palavras duvidosas da transcrição.
+2. **Plano segundo a segundo** no estilo V3: gancho nos 3 primeiros segundos, frase de apoio, palavras gigantes, telas cheias, CTAs (incluindo o card de perfil). Salve em `projetos/<video>/plano.md`.
+3. **Montar e mandar uma prévia em MP4.**
+   - Componentes reutilizáveis em `src/estilo/`.
+   - A palavra atrás da cabeça usa uma máscara da pessoa gerada com RobustVideoMatting.
+   - Efeitos sonoros em `public/sfx`, ~18 dB abaixo da voz.
+   - Volume final em −14 LUFS.
+   - Confira a cor comparando pixels com o vídeo original.
+
+Regras:
+- Área segura: texto e elementos só em x 60–920 e y 250–1480.
+- Sem música: ele coloca pelo Instagram.
+- Entrega: a conversa aceita arquivos de até 30 MB. Mande a versão final em HEVC (`hvc1`) abaixo disso, com `display: render`; o modo "attach" não abre no iPad.
+- O repositório é **público**: nunca coloque vídeos nem a foto de perfil no git. A foto de perfil fica em `public/perfil/foto.jpg` (fora do git); peça de novo se não estiver na máquina.
+
 ## Ambiente
 
 `.claude/hooks/session-start.sh` instala as dependências npm, compila o whisper.cpp em `~/tools/whisper.cpp`
