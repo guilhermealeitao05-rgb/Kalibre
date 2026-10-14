@@ -12,7 +12,8 @@ export const ListaChaves: React.FC<{
   readonly fim: number;
   readonly topo?: number;
   readonly tamanho?: number;
-}> = ({ linhas, fim, topo = 350, tamanho = 64 }) => {
+  readonly brilho?: boolean;
+}> = ({ linhas, fim, topo = 350, tamanho = 64, brilho = false }) => {
   const frame = useCurrentFrame();
   const inicio = linhas[0][0].em;
   if (!visivel(frame, inicio, fim)) {
@@ -36,6 +37,7 @@ export const ListaChaves: React.FC<{
         letterSpacing: "-0.04em",
         lineHeight: 1.12,
         color: COR.texto,
+        textShadow: brilho ? "0 0 20px rgba(255,255,255,0.9), 0 0 44px rgba(255,255,255,0.7)" : undefined,
       }}
     >
       {linhas.map((linha, l) => (

@@ -7,8 +7,9 @@ import { CardPerfil } from "../../estilo/CardPerfil";
 import { FraseApoio } from "../../estilo/FraseApoio";
 import { ListaChaves } from "../../estilo/ListaChaves";
 import { PalavraGigante } from "../../estilo/PalavraGigante";
+import { TelaFinal } from "../../estilo/TelaFinal";
 import { useFonteCarregada } from "../../estilo/useFonte";
-import { TelaComparacao, TelaFinal, TelaNotificacoes, TelaOMS, TelaPergunta, TelaQualidade } from "./Cenas";
+import { TelaComparacao, TelaNotificacoes, TelaOMS, TelaPergunta, TelaQualidade } from "./Cenas";
 import { DURACAO_TOTAL, f, FIM_DA_FALA, ORIGEM_ZOOM, recorteNoQuadro, TRECHOS, VIDEO, w } from "./dados";
 
 // Efeitos sonoros gerados para o estúdio (public/sfx), sem direito autoral.

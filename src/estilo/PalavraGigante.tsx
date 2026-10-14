@@ -16,7 +16,8 @@ export const PalavraGigante: React.FC<{
   readonly ondulado?: number; // quadro em que o sublinhado ondulado aparece
   readonly linhaDeBase?: number;
   readonly cor?: string;
-}> = ({ texto, em, fim, sufixo, risco, ondulado, linhaDeBase = 520, cor = COR.texto }) => {
+  readonly brilho?: boolean; // brilho branco suave atrás das letras (fundo movimentado)
+}> = ({ texto, em, fim, sufixo, risco, ondulado, linhaDeBase = 520, cor = COR.texto, brilho = false }) => {
   const frame = useCurrentFrame();
   if (!visivel(frame, em, fim)) {
     return null;
@@ -56,6 +57,9 @@ export const PalavraGigante: React.FC<{
           lineHeight: 1.2,
           color: cor,
           whiteSpace: "pre",
+          textShadow: brilho
+            ? "0 0 24px rgba(255,255,255,0.9), 0 0 60px rgba(255,255,255,0.7)"
+            : undefined,
         }}
       >
         {texto}

@@ -4,7 +4,7 @@ import { visivel } from "./animacao";
 import { Palavra } from "./Palavra";
 import { AREA_SEGURA, COR, FONTE, LARGURA_UTIL, TAMANHO } from "./tokens";
 
-export type PalavraTempo = { readonly texto: string; readonly em: number };
+export type PalavraTempo = { readonly texto: string; readonly em: number; readonly cor?: string };
 
 // A legenda do estilo V3: frase curta no topo, palavra por palavra.
 export const FraseApoio: React.FC<{
@@ -34,7 +34,7 @@ export const FraseApoio: React.FC<{
       }}
     >
       {palavras.map((p, i) => (
-        <Palavra key={i} texto={(i > 0 ? " " : "") + p.texto} em={p.em} />
+        <Palavra key={i} texto={(i > 0 ? " " : "") + p.texto} em={p.em} cor={p.cor} />
       ))}
     </div>
   );
