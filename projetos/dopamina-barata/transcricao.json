@@ -1,0 +1,795 @@
+{
+ "fonte": "public/videos/dopamina-barata.mp4 (H.264 convertido do HDR do iPhone, cor A, 1080x1920)",
+ "trechos_mantidos_s": [
+  [
+   0.0,
+   6.0
+  ],
+  [
+   6.16,
+   12.75
+  ],
+  [
+   12.88,
+   15.65
+  ],
+  [
+   15.84,
+   18.11
+  ],
+  [
+   18.29,
+   26.65
+  ],
+  [
+   26.92,
+   31.49
+  ],
+  [
+   31.65,
+   37.53
+  ],
+  [
+   37.73,
+   45.0
+  ]
+ ],
+ "duracao_fala_s": 43.71,
+ "palavras": [
+  {
+   "texto": "Tu",
+   "inicio_original_s": 0.24,
+   "inicio_editado_s": 0.24
+  },
+  {
+   "texto": "já",
+   "inicio_original_s": 0.4,
+   "inicio_editado_s": 0.4
+  },
+  {
+   "texto": "percebeu",
+   "inicio_original_s": 0.6,
+   "inicio_editado_s": 0.6
+  },
+  {
+   "texto": "que",
+   "inicio_original_s": 0.98,
+   "inicio_editado_s": 0.98
+  },
+  {
+   "texto": "tá",
+   "inicio_original_s": 1.12,
+   "inicio_editado_s": 1.12
+  },
+  {
+   "texto": "cada",
+   "inicio_original_s": 1.36,
+   "inicio_editado_s": 1.36
+  },
+  {
+   "texto": "vez",
+   "inicio_original_s": 1.56,
+   "inicio_editado_s": 1.56
+  },
+  {
+   "texto": "mais",
+   "inicio_original_s": 1.72,
+   "inicio_editado_s": 1.72
+  },
+  {
+   "texto": "difícil",
+   "inicio_original_s": 2.0,
+   "inicio_editado_s": 2.0
+  },
+  {
+   "texto": "ficar",
+   "inicio_original_s": 2.32,
+   "inicio_editado_s": 2.32
+  },
+  {
+   "texto": "sem",
+   "inicio_original_s": 2.5,
+   "inicio_editado_s": 2.5
+  },
+  {
+   "texto": "fazer",
+   "inicio_original_s": 2.68,
+   "inicio_editado_s": 2.68
+  },
+  {
+   "texto": "nada?",
+   "inicio_original_s": 2.94,
+   "inicio_editado_s": 2.94
+  },
+  {
+   "texto": "Tu",
+   "inicio_original_s": 3.22,
+   "inicio_editado_s": 3.22
+  },
+  {
+   "texto": "não",
+   "inicio_original_s": 3.32,
+   "inicio_editado_s": 3.32
+  },
+  {
+   "texto": "consegue",
+   "inicio_original_s": 3.62,
+   "inicio_editado_s": 3.62
+  },
+  {
+   "texto": "comer",
+   "inicio_original_s": 3.96,
+   "inicio_editado_s": 3.96
+  },
+  {
+   "texto": "sem",
+   "inicio_original_s": 4.12,
+   "inicio_editado_s": 4.12
+  },
+  {
+   "texto": "ficar",
+   "inicio_original_s": 4.36,
+   "inicio_editado_s": 4.36
+  },
+  {
+   "texto": "assistindo",
+   "inicio_original_s": 4.6,
+   "inicio_editado_s": 4.6
+  },
+  {
+   "texto": "à",
+   "inicio_original_s": 4.9,
+   "inicio_editado_s": 4.9
+  },
+  {
+   "texto": "merda",
+   "inicio_original_s": 5.14,
+   "inicio_editado_s": 5.14
+  },
+  {
+   "texto": "do",
+   "inicio_original_s": 5.44,
+   "inicio_editado_s": 5.44
+  },
+  {
+   "texto": "celular.",
+   "inicio_original_s": 5.88,
+   "inicio_editado_s": 5.88
+  },
+  {
+   "texto": "Tu",
+   "inicio_original_s": 6.26,
+   "inicio_editado_s": 6.1
+  },
+  {
+   "texto": "precisa",
+   "inicio_original_s": 6.56,
+   "inicio_editado_s": 6.4
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 6.8,
+   "inicio_editado_s": 6.64
+  },
+  {
+   "texto": "estímulos",
+   "inicio_original_s": 6.92,
+   "inicio_editado_s": 6.76
+  },
+  {
+   "texto": "o",
+   "inicio_original_s": 7.32,
+   "inicio_editado_s": 7.16
+  },
+  {
+   "texto": "tempo",
+   "inicio_original_s": 7.5,
+   "inicio_editado_s": 7.34
+  },
+  {
+   "texto": "inteiro",
+   "inicio_original_s": 7.82,
+   "inicio_editado_s": 7.66
+  },
+  {
+   "texto": "e",
+   "inicio_original_s": 7.92,
+   "inicio_editado_s": 7.76
+  },
+  {
+   "texto": "não",
+   "inicio_original_s": 8.0,
+   "inicio_editado_s": 7.84
+  },
+  {
+   "texto": "consegue",
+   "inicio_original_s": 8.26,
+   "inicio_editado_s": 8.1
+  },
+  {
+   "texto": "ficar",
+   "inicio_original_s": 8.46,
+   "inicio_editado_s": 8.3
+  },
+  {
+   "texto": "sozinho",
+   "inicio_original_s": 8.62,
+   "inicio_editado_s": 8.46
+  },
+  {
+   "texto": "com",
+   "inicio_original_s": 8.9,
+   "inicio_editado_s": 8.74
+  },
+  {
+   "texto": "os",
+   "inicio_original_s": 9.0,
+   "inicio_editado_s": 8.84
+  },
+  {
+   "texto": "próprios",
+   "inicio_original_s": 9.18,
+   "inicio_editado_s": 9.02
+  },
+  {
+   "texto": "pensamentos.",
+   "inicio_original_s": 9.46,
+   "inicio_editado_s": 9.3
+  },
+  {
+   "texto": "É",
+   "inicio_original_s": 10.1,
+   "inicio_editado_s": 9.94
+  },
+  {
+   "texto": "um",
+   "inicio_original_s": 10.22,
+   "inicio_editado_s": 10.06
+  },
+  {
+   "texto": "fato",
+   "inicio_original_s": 10.6,
+   "inicio_editado_s": 10.44
+  },
+  {
+   "texto": "que",
+   "inicio_original_s": 10.8,
+   "inicio_editado_s": 10.64
+  },
+  {
+   "texto": "estamos",
+   "inicio_original_s": 11.02,
+   "inicio_editado_s": 10.86
+  },
+  {
+   "texto": "vivendo",
+   "inicio_original_s": 11.3,
+   "inicio_editado_s": 11.14
+  },
+  {
+   "texto": "na",
+   "inicio_original_s": 11.66,
+   "inicio_editado_s": 11.5
+  },
+  {
+   "texto": "era",
+   "inicio_original_s": 11.84,
+   "inicio_editado_s": 11.68
+  },
+  {
+   "texto": "do",
+   "inicio_original_s": 12.0,
+   "inicio_editado_s": 11.84
+  },
+  {
+   "texto": "imediatismo,",
+   "inicio_original_s": 12.1,
+   "inicio_editado_s": 11.94
+  },
+  {
+   "texto": "vídeos",
+   "inicio_original_s": 13.04,
+   "inicio_editado_s": 12.75
+  },
+  {
+   "texto": "curtos,",
+   "inicio_original_s": 13.42,
+   "inicio_editado_s": 13.13
+  },
+  {
+   "texto": "notificações,",
+   "inicio_original_s": 13.72,
+   "inicio_editado_s": 13.43
+  },
+  {
+   "texto": "comidas",
+   "inicio_original_s": 14.58,
+   "inicio_editado_s": 14.29
+  },
+  {
+   "texto": "hiperpalatáveis",
+   "inicio_original_s": 14.96,
+   "inicio_editado_s": 14.67
+  },
+  {
+   "texto": "e",
+   "inicio_original_s": 15.94,
+   "inicio_editado_s": 15.46
+  },
+  {
+   "texto": "recompensas",
+   "inicio_original_s": 16.24,
+   "inicio_editado_s": 15.76
+  },
+  {
+   "texto": "imediatas",
+   "inicio_original_s": 16.72,
+   "inicio_editado_s": 16.24
+  },
+  {
+   "texto": "o",
+   "inicio_original_s": 17.34,
+   "inicio_editado_s": 16.86
+  },
+  {
+   "texto": "tempo",
+   "inicio_original_s": 17.54,
+   "inicio_editado_s": 17.06
+  },
+  {
+   "texto": "inteiro.",
+   "inicio_original_s": 18.0,
+   "inicio_editado_s": 17.52
+  },
+  {
+   "texto": "Mas",
+   "inicio_original_s": 18.48,
+   "inicio_editado_s": 17.82
+  },
+  {
+   "texto": "aí",
+   "inicio_original_s": 18.76,
+   "inicio_editado_s": 18.1
+  },
+  {
+   "texto": "entra",
+   "inicio_original_s": 19.16,
+   "inicio_editado_s": 18.5
+  },
+  {
+   "texto": "aquele",
+   "inicio_original_s": 19.52,
+   "inicio_editado_s": 18.86
+  },
+  {
+   "texto": "questionamento.",
+   "inicio_original_s": 19.84,
+   "inicio_editado_s": 19.18
+  },
+  {
+   "texto": "Será",
+   "inicio_original_s": 20.48,
+   "inicio_editado_s": 19.82
+  },
+  {
+   "texto": "que",
+   "inicio_original_s": 20.64,
+   "inicio_editado_s": 19.98
+  },
+  {
+   "texto": "estamos",
+   "inicio_original_s": 20.9,
+   "inicio_editado_s": 20.24
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 21.06,
+   "inicio_editado_s": 20.4
+  },
+  {
+   "texto": "fato",
+   "inicio_original_s": 21.4,
+   "inicio_editado_s": 20.74
+  },
+  {
+   "texto": "perdendo",
+   "inicio_original_s": 21.7,
+   "inicio_editado_s": 21.04
+  },
+  {
+   "texto": "prazer",
+   "inicio_original_s": 22.06,
+   "inicio_editado_s": 21.4
+  },
+  {
+   "texto": "com",
+   "inicio_original_s": 22.4,
+   "inicio_editado_s": 21.74
+  },
+  {
+   "texto": "as",
+   "inicio_original_s": 22.5,
+   "inicio_editado_s": 21.84
+  },
+  {
+   "texto": "coisas",
+   "inicio_original_s": 22.68,
+   "inicio_editado_s": 22.02
+  },
+  {
+   "texto": "simples",
+   "inicio_original_s": 23.06,
+   "inicio_editado_s": 22.4
+  },
+  {
+   "texto": "da",
+   "inicio_original_s": 23.24,
+   "inicio_editado_s": 22.58
+  },
+  {
+   "texto": "vida?",
+   "inicio_original_s": 23.44,
+   "inicio_editado_s": 22.78
+  },
+  {
+   "texto": "Porque",
+   "inicio_original_s": 23.82,
+   "inicio_editado_s": 23.16
+  },
+  {
+   "texto": "até",
+   "inicio_original_s": 24.06,
+   "inicio_editado_s": 23.4
+  },
+  {
+   "texto": "se",
+   "inicio_original_s": 24.18,
+   "inicio_editado_s": 23.52
+  },
+  {
+   "texto": "alimentar",
+   "inicio_original_s": 24.34,
+   "inicio_editado_s": 23.68
+  },
+  {
+   "texto": "bem,",
+   "inicio_original_s": 24.74,
+   "inicio_editado_s": 24.08
+  },
+  {
+   "texto": "treinar,",
+   "inicio_original_s": 25.06,
+   "inicio_editado_s": 24.4
+  },
+  {
+   "texto": "construir",
+   "inicio_original_s": 25.74,
+   "inicio_editado_s": 25.08
+  },
+  {
+   "texto": "bons",
+   "inicio_original_s": 26.02,
+   "inicio_editado_s": 25.36
+  },
+  {
+   "texto": "hábitos,",
+   "inicio_original_s": 26.36,
+   "inicio_editado_s": 25.7
+  },
+  {
+   "texto": "cuidar",
+   "inicio_original_s": 27.04,
+   "inicio_editado_s": 26.11
+  },
+  {
+   "texto": "da",
+   "inicio_original_s": 27.34,
+   "inicio_editado_s": 26.41
+  },
+  {
+   "texto": "própria",
+   "inicio_original_s": 27.5,
+   "inicio_editado_s": 26.57
+  },
+  {
+   "texto": "saúde",
+   "inicio_original_s": 27.86,
+   "inicio_editado_s": 26.93
+  },
+  {
+   "texto": "parece",
+   "inicio_original_s": 28.24,
+   "inicio_editado_s": 27.31
+  },
+  {
+   "texto": "difícil",
+   "inicio_original_s": 28.72,
+   "inicio_editado_s": 27.79
+  },
+  {
+   "texto": "quando",
+   "inicio_original_s": 28.98,
+   "inicio_editado_s": 28.05
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 29.1,
+   "inicio_editado_s": 28.17
+  },
+  {
+   "texto": "gente",
+   "inicio_original_s": 29.24,
+   "inicio_editado_s": 28.31
+  },
+  {
+   "texto": "tá",
+   "inicio_original_s": 29.46,
+   "inicio_editado_s": 28.53
+  },
+  {
+   "texto": "acostumado",
+   "inicio_original_s": 29.66,
+   "inicio_editado_s": 28.73
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 30.4,
+   "inicio_editado_s": 29.47
+  },
+  {
+   "texto": "ter",
+   "inicio_original_s": 30.52,
+   "inicio_editado_s": 29.59
+  },
+  {
+   "texto": "tudo",
+   "inicio_original_s": 30.8,
+   "inicio_editado_s": 29.87
+  },
+  {
+   "texto": "imediatamente.",
+   "inicio_original_s": 30.96,
+   "inicio_editado_s": 30.03
+  },
+  {
+   "texto": "E",
+   "inicio_original_s": 31.82,
+   "inicio_editado_s": 30.73
+  },
+  {
+   "texto": "não,",
+   "inicio_original_s": 32.0,
+   "inicio_editado_s": 30.91
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 32.24,
+   "inicio_editado_s": 31.15
+  },
+  {
+   "texto": "sua",
+   "inicio_original_s": 32.46,
+   "inicio_editado_s": 31.37
+  },
+  {
+   "texto": "dopamina",
+   "inicio_original_s": 32.66,
+   "inicio_editado_s": 31.57
+  },
+  {
+   "texto": "não",
+   "inicio_original_s": 33.16,
+   "inicio_editado_s": 32.07
+  },
+  {
+   "texto": "está",
+   "inicio_original_s": 33.34,
+   "inicio_editado_s": 32.25
+  },
+  {
+   "texto": "sendo",
+   "inicio_original_s": 33.5,
+   "inicio_editado_s": 32.41
+  },
+  {
+   "texto": "destruída.",
+   "inicio_original_s": 33.76,
+   "inicio_editado_s": 32.67
+  },
+  {
+   "texto": "A",
+   "inicio_original_s": 34.14,
+   "inicio_editado_s": 33.05
+  },
+  {
+   "texto": "questão",
+   "inicio_original_s": 34.48,
+   "inicio_editado_s": 33.39
+  },
+  {
+   "texto": "é",
+   "inicio_original_s": 34.96,
+   "inicio_editado_s": 33.87
+  },
+  {
+   "texto": "como",
+   "inicio_original_s": 35.28,
+   "inicio_editado_s": 34.19
+  },
+  {
+   "texto": "os",
+   "inicio_original_s": 35.64,
+   "inicio_editado_s": 34.55
+  },
+  {
+   "texto": "nossos",
+   "inicio_original_s": 35.64,
+   "inicio_editado_s": 34.55
+  },
+  {
+   "texto": "hábitos",
+   "inicio_original_s": 35.9,
+   "inicio_editado_s": 34.81
+  },
+  {
+   "texto": "influenciam",
+   "inicio_original_s": 36.36,
+   "inicio_editado_s": 35.27
+  },
+  {
+   "texto": "a",
+   "inicio_original_s": 36.82,
+   "inicio_editado_s": 35.73
+  },
+  {
+   "texto": "nossa",
+   "inicio_original_s": 36.94,
+   "inicio_editado_s": 35.85
+  },
+  {
+   "texto": "atenção",
+   "inicio_original_s": 37.4,
+   "inicio_editado_s": 36.31
+  },
+  {
+   "texto": "e",
+   "inicio_original_s": 37.84,
+   "inicio_editado_s": 36.55
+  },
+  {
+   "texto": "as",
+   "inicio_original_s": 38.0,
+   "inicio_editado_s": 36.71
+  },
+  {
+   "texto": "nossas",
+   "inicio_original_s": 38.18,
+   "inicio_editado_s": 36.89
+  },
+  {
+   "texto": "escolhas.",
+   "inicio_original_s": 38.54,
+   "inicio_editado_s": 37.25
+  },
+  {
+   "texto": "Agora",
+   "inicio_original_s": 38.78,
+   "inicio_editado_s": 37.49
+  },
+  {
+   "texto": "me",
+   "inicio_original_s": 39.0,
+   "inicio_editado_s": 37.71
+  },
+  {
+   "texto": "diz",
+   "inicio_original_s": 39.22,
+   "inicio_editado_s": 37.93
+  },
+  {
+   "texto": "aqui,",
+   "inicio_original_s": 39.48,
+   "inicio_editado_s": 38.19
+  },
+  {
+   "texto": "você",
+   "inicio_original_s": 39.74,
+   "inicio_editado_s": 38.45
+  },
+  {
+   "texto": "de",
+   "inicio_original_s": 39.88,
+   "inicio_editado_s": 38.59
+  },
+  {
+   "texto": "fato",
+   "inicio_original_s": 40.16,
+   "inicio_editado_s": 38.87
+  },
+  {
+   "texto": "controla",
+   "inicio_original_s": 40.6,
+   "inicio_editado_s": 39.31
+  },
+  {
+   "texto": "os",
+   "inicio_original_s": 40.6,
+   "inicio_editado_s": 39.31
+  },
+  {
+   "texto": "seus",
+   "inicio_original_s": 40.84,
+   "inicio_editado_s": 39.55
+  },
+  {
+   "texto": "hábitos",
+   "inicio_original_s": 41.12,
+   "inicio_editado_s": 39.83
+  },
+  {
+   "texto": "ou",
+   "inicio_original_s": 41.6,
+   "inicio_editado_s": 40.31
+  },
+  {
+   "texto": "virou",
+   "inicio_original_s": 41.74,
+   "inicio_editado_s": 40.45
+  },
+  {
+   "texto": "escravo",
+   "inicio_original_s": 42.24,
+   "inicio_editado_s": 40.95
+  },
+  {
+   "texto": "deles?",
+   "inicio_original_s": 42.72,
+   "inicio_editado_s": 41.43
+  },
+  {
+   "texto": "E",
+   "inicio_original_s": 43.04,
+   "inicio_editado_s": 41.75
+  },
+  {
+   "texto": "claro,",
+   "inicio_original_s": 43.22,
+   "inicio_editado_s": 41.93
+  },
+  {
+   "texto": "já",
+   "inicio_original_s": 43.42,
+   "inicio_editado_s": 42.13
+  },
+  {
+   "texto": "me",
+   "inicio_original_s": 43.54,
+   "inicio_editado_s": 42.25
+  },
+  {
+   "texto": "segue",
+   "inicio_original_s": 43.74,
+   "inicio_editado_s": 42.45
+  },
+  {
+   "texto": "para",
+   "inicio_original_s": 43.94,
+   "inicio_editado_s": 42.65
+  },
+  {
+   "texto": "conteúdos",
+   "inicio_original_s": 44.28,
+   "inicio_editado_s": 42.99
+  },
+  {
+   "texto": "como",
+   "inicio_original_s": 44.56,
+   "inicio_editado_s": 43.27
+  },
+  {
+   "texto": "esse.",
+   "inicio_original_s": 44.82,
+   "inicio_editado_s": 43.53
+  }
+ ]
+}

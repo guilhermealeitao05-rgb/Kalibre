@@ -11,3 +11,6 @@ public/videos
 
 # Foto de perfil (pessoal, fora do repositório público)
 public/perfil
+
+# Quadros com o rosto do Guilherme (repositório público)
+projetos/*/*.jpg
